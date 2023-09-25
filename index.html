@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            max-width: 320px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name">
+    <label for="age">Age:</label>
+    <input type="text" name="age" id="age">
+    <label for="location">Location:</label>
+    <input type="text" name="location" id="location">
+    <button type="button" id="addBtn">Add</button>
+    <br>
+    <hr>
+    <br>
+    <label for="locationFind">Location:</label>
+    <input type="text" name="locationFind" id="locationFind">
+    <button type="button" id="find">Find</button>
+    <button type="button" onclick="displayAll()">Display All</button>
+    </div>
+
+</body>
+<script src="main.js"></script>
+</html>
